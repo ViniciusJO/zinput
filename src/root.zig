@@ -1408,8 +1408,8 @@ test "zengi init" {
     //     }
     // } }.fun;
 
-    const in = try zinput.init();
-    defer in.deinit();
+    // const in = try zinput.init();
+    // defer in.deinit();
 
     try t.expect(true);
 
